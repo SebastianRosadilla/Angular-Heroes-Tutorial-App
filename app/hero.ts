@@ -3,7 +3,7 @@ interface IHero {
   public name: string;
 }
 
-export class Hero {
+export class Hero implements IHero {
   public id: number;
   public name: string;
 
